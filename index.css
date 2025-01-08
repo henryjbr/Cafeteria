@@ -1,0 +1,45 @@
+body {
+    background: rgb(143,106,57);
+    background: linear-gradient(90deg, rgba(143,106,57,1) 0%, rgba(212,202,147,1) 53%, rgba(143,106,57,1) 100%);
+    text-align: center;
+}
+
+#logo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+.bt {
+    height: 80px;
+    width: 300px;
+    background-color: rgba(49, 48, 48, 0.966);
+    color: rgba(255, 255, 255, 0.26);
+    margin-bottom: 40px;
+    transform: translateY(51%);
+    border-radius: 15px;
+}
+
+.bt:hover {
+    background-color: rgba(27, 27, 27, 0.966);
+    color: rgb(255, 255, 255);
+}
+
+main {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    transform: translateY(50%);
+}

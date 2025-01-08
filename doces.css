@@ -1,0 +1,58 @@
+body {
+    background: rgb(143,106,57);
+    background: linear-gradient(90deg, rgba(143,106,57,1) 0%, rgba(212,202,147,1) 53%, rgba(143,106,57,1) 100%);
+    text-align: center;
+}
+
+#doces {
+    transform: translateY(-20%);
+}
+
+#torta {
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+#cupcake {
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+button {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+    transform: translateY(-250%);
+}
+  
+button::before {
+    margin-left: auto;
+}
+  
+button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff0000;
+    display: block;
+    transition: 0.5s;
+}
+  
+button:hover::after, button:hover::before {
+    width: 100%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 45px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;   
+}
